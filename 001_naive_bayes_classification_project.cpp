@@ -47,7 +47,7 @@ const int numOfIterations = 5;
 int main() {
 
 	// Opening the file 
-	fstream inputFile {"./dados/dataset.csv"};
+	fstream inputFile {"./data/dataset.csv"};
 	
 	// Checking if the file is open 
 	if (!inputFile.is_open()) {
